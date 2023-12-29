@@ -15,7 +15,7 @@ const getUserChoice = userInput => {
 
 const getComputerChoice = () => {
   const number = Math.floor(Math.random() * 3);
-  switch(number) {
+  switch (number) {
     case 0:
       return 'rock';
     case 1:
